@@ -3,7 +3,7 @@
     'name': "Store sessions in DB",
     'description': """
     Storing sessions in DB
-- workls only with workers > 0
+- only works with workers > 0
 - set the session_db parameter in the odoo config file
 - session_db parameter value is a full postgresql connection string, like user:passwd@server/db
 - choose another DB than the odoo db itself, for security purpose
